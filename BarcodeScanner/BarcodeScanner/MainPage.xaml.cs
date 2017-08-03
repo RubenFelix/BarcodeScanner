@@ -26,5 +26,14 @@ namespace BarcodeScanner
         {
             this.InitializeComponent();
         }
+
+        private void txt_Barcode_ScannerRealTime_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (((String)txt_Barcode_ScannerRealTime.Text).Contains('\n'))
+            {
+                txt_Barcode_Scanned.Text = txt_Barcode_ScannerRealTime.Text;
+                txt_Barcode_ScannerRealTime.Text = "";
+            }
+        }
     }
 }

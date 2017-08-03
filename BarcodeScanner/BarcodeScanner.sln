@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeScanner", "BarcodeScanner\BarcodeScanner.csproj", "{AF867421-17E8-46DA-8360-90D1319A2C3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeScannerUI", "BarcodeScanner\BarcodeScannerUI.csproj", "{AF867421-17E8-46DA-8360-90D1319A2C3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundApplication1", "..\..\..\..\OneDrive\Documentos\Visual Studio 2017\Projects\BackgroundApplication1\BackgroundApplication1\BackgroundApplication1.csproj", "{AD51C788-0E40-4C1C-9ED5-1ADE88C39A88}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeScannerInterface", "..\..\..\..\OneDrive\Documentos\Visual Studio 2017\Projects\BackgroundApplication1\BarcodeScannerInterface\BarcodeScannerInterface.csproj", "{B10AB358-6DF1-4513-A2E1-A477A851F8BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,24 +53,6 @@ Global
 		{AD51C788-0E40-4C1C-9ED5-1ADE88C39A88}.Release|x86.ActiveCfg = Release|x86
 		{AD51C788-0E40-4C1C-9ED5-1ADE88C39A88}.Release|x86.Build.0 = Release|x86
 		{AD51C788-0E40-4C1C-9ED5-1ADE88C39A88}.Release|x86.Deploy.0 = Release|x86
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Debug|ARM.ActiveCfg = Debug|ARM
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Debug|ARM.Build.0 = Debug|ARM
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Debug|ARM.Deploy.0 = Debug|ARM
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Debug|x64.ActiveCfg = Debug|x64
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Debug|x64.Build.0 = Debug|x64
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Debug|x64.Deploy.0 = Debug|x64
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Debug|x86.ActiveCfg = Debug|x86
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Debug|x86.Build.0 = Debug|x86
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Debug|x86.Deploy.0 = Debug|x86
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Release|ARM.ActiveCfg = Release|ARM
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Release|ARM.Build.0 = Release|ARM
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Release|ARM.Deploy.0 = Release|ARM
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Release|x64.ActiveCfg = Release|x64
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Release|x64.Build.0 = Release|x64
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Release|x64.Deploy.0 = Release|x64
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Release|x86.ActiveCfg = Release|x86
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Release|x86.Build.0 = Release|x86
-		{B10AB358-6DF1-4513-A2E1-A477A851F8BD}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

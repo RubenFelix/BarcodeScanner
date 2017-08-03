@@ -7,7 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/Layout/Background.jpg"/>
+        </Grid.Background>
+        <TextBox x:Name="txt_Barcode_ScannerRealTime" HorizontalAlignment="Left" Margin="399,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="231" TextChanged="txt_Barcode_ScannerRealTime_TextChanged"/>
+        <TextBox x:Name="txt_Barcode_Scanned" HorizontalAlignment="Left" Margin="399,173,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="231"/>
 
     </Grid>
 </Page>
